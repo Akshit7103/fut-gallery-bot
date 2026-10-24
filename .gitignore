@@ -1,0 +1,5 @@
+# personal data - never share
+chrome-profile/
+logs/
+__pycache__/
+*.pyc

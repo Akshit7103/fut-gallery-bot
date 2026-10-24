@@ -1,0 +1,15 @@
+{
+  "_comment": "Safety limits. The bot always shows each batch and waits for you to type YES before buying.",
+  "confirm_each_batch": false,
+  "batch_size": 8,
+  "max_buys_per_session": 25,
+  "max_coins_per_session": 20000,
+  "coin_reserve": 2000,
+  "price_cap_margin_pct": 25,
+  "price_cap_min_extra": 150,
+  "absolute_max_per_card": 15000,
+  "retries_per_card": 3,
+  "delay_between_actions_s": [1.2, 2.5],
+  "delay_between_buys_s": [6, 12],
+  "listing_duration_s": 3600
+}
